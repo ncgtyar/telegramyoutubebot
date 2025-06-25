@@ -11,7 +11,7 @@ config = {
     'extract_flat': '1',
     'noplaylist': True,
     'keepvideo': False,
-    'outtmpl': f"X:/yourdirectory/%(title)s",
+    'outtmpl': f"X:/yourdirectory/%(title)s", #The temporary or cache directory for downloads, deleted after being converted to audio
     'format': 'bestaudio/best',
         'keepvideo': False,
         'postprocessors': [{
